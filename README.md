@@ -80,11 +80,11 @@ Xử lý dữ liệu: Sử dụng bộ từ điển (Vocabulary) và Tokenizer c
 
    Phân tích:
 
-      Hiệu quả của Self-Attention: Mô hình nhận diện chính xác các từ khóa quan trọng trong câu dài mà không bị mất thông tin như LSTM.
+      Hiệu quả của Self-Attention: Mô hình nhận diện chính xác các từ khóa quan trọng trong câu dài mà không bị mất thông tin.
 
       Tốc độ hội tụ: Nhờ AdamW, biểu đồ Loss giảm đều và ổn định, tránh được các điểm cực tiểu địa phương tốt hơn.
 
-      So sánh: Kết quả vượt trội hơn [X]% so với việc không sử dụng pre-trained model (hoặc so với mô hình Baseline).
+   
       
 ### Chương 4: Kết luận
 **✅ Kết luận & Hướng phát triển**
@@ -101,17 +101,17 @@ Xử lý dữ liệu: Sử dụng bộ từ điển (Vocabulary) và Tokenizer c
 ### Tài liệu tham khảo 
 📚 Tài liệu tham khảo
 
-Vaswani et al. (2017). "Attention Is All You Need". (Cơ sở về Transformer & Self-Attention).
-
-Nguyen & Nguyen (2020). "PhoBERT: Pre-trained language models for Vietnamese". (Mô hình VinAI).
-
-Loshchilov & Hutter (2019). "Decoupled Weight Decay Regularization". (Thuật toán AdamW).
+   Vaswani et al. (2017). "Attention Is All You Need". (Cơ sở về Transformer & Self-Attention).
+   
+   Nguyen & Nguyen (2020). "PhoBERT: Pre-trained language models for Vietnamese". (Mô hình VinAI).
+   
+   Loshchilov & Hutter (2019). "Decoupled Weight Decay Regularization". (Thuật toán AdamW).
 
 📎 Phụ lục
 
-Biểu đồ huấn luyện (Training/Validation Loss).
-
-Đoạn code minh họa cách mapping từ vựng sang chỉ số dùng vinai/phobert-base.
+   Biểu đồ huấn luyện (Training/Validation Loss).
+   
+   Đoạn code minh họa cách mapping từ vựng sang chỉ số dùng vinai/phobert-base.
 
 
 
@@ -131,26 +131,17 @@ Biểu đồ huấn luyện (Training/Validation Loss).
 
 ### ✅ Danh sách kiểm tra trước khi nộp
 - [X] ✅ Đánh dấu X vào ô để xác nhận hoàn thành  
-- [ ] ✍️ Điền đầy đủ các mục trong mẫu README này  
-- [ ] 📄 Hoàn thiện báo cáo PDF chi tiết theo cấu trúc trên  
-- [ ] 🎨 Tuân thủ định dạng và nội dung theo hướng dẫn giảng viên  
-- [ ] ➕ Thêm các mục riêng của dự án nếu cần  
-- [ ] 🔍 Kiểm tra lại ngữ pháp, diễn đạt và độ chính xác kỹ thuật  
-- [ ] ⬆️ Tải lên báo cáo PDF, slide trình bày và mã nguồn  
-- [ ] 🧩 Đảm bảo tất cả mã nguồn được tài liệu hóa đầy đủ với bình luận và docstring  
-- [ ] 🔗 Kiểm tra các liên kết và tài liệu tham khảo hoạt động đúng
+- [X] ✍️ Điền đầy đủ các mục trong mẫu README này  
+- [X] 📄 Hoàn thiện báo cáo PDF chi tiết theo cấu trúc trên  
+- [X] 🎨 Tuân thủ định dạng và nội dung theo hướng dẫn giảng viên  
+- [X] ➕ Thêm các mục riêng của dự án nếu cần  
+- [X] 🔍 Kiểm tra lại ngữ pháp, diễn đạt và độ chính xác kỹ thuật  
+- [X] ⬆️ Tải lên báo cáo PDF, slide trình bày và mã nguồn  
+- [X] 🧩 Đảm bảo tất cả mã nguồn được tài liệu hóa đầy đủ với bình luận và docstring  
+- [X] 🔗 Kiểm tra các liên kết và tài liệu tham khảo hoạt động đúng
 
 ### 🏆 Tiêu chí đánh giá Bài tập nhóm
 
 Xem 📄 [Rubrics.md](Rubrics.md) để biết chi tiết về tiêu chí đánh giá bài tập nhóm, bao gồm điểm tối đa cho từng tiêu chí và mô tả các mức độ đánh giá (Xuất sắc, Tốt, Cần cải thiện).
 
-### 📚 Liên kết hữu ích
 
-- 📄 [Mẫu báo cáo](LaTeX%20Template/main-vi.tex) - Mẫu LaTeX để viết báo cáo  
-- 📘 [Sổ tay dùng LaTeX](https://vietex.blog.fc2.com/blog-entry-516.html) - Hướng dẫn sử dụng LaTeX bằng tiếng Việt  
-- 🔎 [Một số phương pháp tải bài báo khoa học](https://hoanganhduc.github.io/misc/m%E1%BB%99t-s%E1%BB%91-ph%C6%B0%C6%A1ng-ph%C3%A1p-t%E1%BA%A3i-b%C3%A0i-b%C3%A1o-khoa-h%E1%BB%8Dc/) - Hướng dẫn một số phương pháp tải bài báo khoa học  
-- 📰 [AI Vietnam Blog](https://aivietnam.edu.vn/blog) - Blog với các bài viết về AI bằng tiếng Việt
-
----
-
-*Mẫu cập nhật lần cuối: 🗓️ Tháng 7/2025*
