@@ -11,7 +11,7 @@
 * **🏫 Trường:** VNU-HUS (Đại học Quốc gia Hà Nội - Trường Đại học Khoa học Tự nhiên)  
 * **📝 Tiêu đề:** Applying PhoBERT Encoder for Sentiment Classification  
 * **📅 Ngày nộp:** 30/11/2025  
-* **📄 Báo cáo PDF:** 📄 [Liên kết tới báo cáo PDF trong kho lưu trữ này]  
+* **📄 Báo cáo PDF:** https://github.com/24001699-lgtm/HanMinhThanh-AI/blob/master/MAT_3508___Nh%E1%BA%ADp_m%C3%B4n_tr%C3%AD_tu%E1%BB%87_nh%C3%A2n_t%E1%BA%A1o____Nh%C3%B3m_31.pdf
 * **🖥️ Slide thuyết trình:** 🖥️ [Liên kết tới slide thuyết trình trong kho lưu trữ này]  
 * **📂 Kho lưu trữ:** 📁 Bao gồm mã nguồn, dữ liệu và tài liệu (hoặc dẫn link ngoài nếu cần)
 
@@ -103,17 +103,7 @@ Xử lý dữ liệu: Sử dụng bộ từ điển (Vocabulary) và Tokenizer c
 
    Vaswani et al. (2017). "Attention Is All You Need". (Cơ sở về Transformer & Self-Attention).
    
-   Nguyen & Nguyen (2020). "PhoBERT: Pre-trained language models for Vietnamese". (Mô hình VinAI).
-   
    Loshchilov & Hutter (2019). "Decoupled Weight Decay Regularization". (Thuật toán AdamW).
-
-📎 Phụ lục
-
-   Biểu đồ huấn luyện (Training/Validation Loss).
-   
-   Đoạn code minh họa cách mapping từ vựng sang chỉ số dùng vinai/phobert-base.
-
-
 
 
 ### 📋 Yêu cầu
